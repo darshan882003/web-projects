@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Name Letters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Write your code here -->
+  <a href="hello">greetingd</a>
+  <% if(locals.nama){%>
+    <p>there are <%= nama %> number of letter in the given word</p>
+    <%}else{%>
+      <h1>hellow enter your Name</h1>
+      <%}%>
+  <form action="/submit" method="POST">
+    <input type="text" name="fName" placeholder="First name">
+    <input type="text" name="lName" placeholder="Last name">
+    <input type="submit" value="OK">
+  </form>
+</body>
+
+</html>

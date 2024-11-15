@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&display=swap');
+
+
+h1{
+    background-color: blue;
+}
+
+.h{
+    color: brown;
+}
+
+#pa{
+    background-color: blueviolet;
+}
+
+#para{
+    background-color: aqua;
+}
+p[id="paraa"]{
+    background-color: chartreuse;
+    text-align: center;
+}
+
+#para{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight:300; 
+    font-family: "Playwrite SK", cursive;
+    color: brown!important ;
+    color: black;
+}
+
+/* .size{
+    font-size: 10pt;
+    font-weight: bold;
+} */
+
+img[src="assets/images/3u7p3qf7s5ma1.jpg"]{
+    margin-left:1rem;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+ol{
+    border: 10px dashed dodgerblue;
+    padding: 100px;
+    
+}
+ul>li, ol{
+    color: chocolate;
+}
+.li>ul{
+background-color: black;
+}
+
+.li>ul li{
+background-color: aqua;
+}
+
+
+.n{
+    position: fixed;
+}
+
+.head{
+    margin: 0px;
+}
+div>h6{
+    margin-top: 100px;
+}
+
+div>h4{
+    margin-top: 100px;
+}
+div>h1{
+    margin-top: 0px;
+}
+img{
+    float: inline-start;
+    margin-right: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-basis: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenl;
+    align-content: flex-end;
+}
+.container>.flex1{
+    
+}
